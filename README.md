@@ -88,8 +88,8 @@ Sample Output <br>
 70.50 <br>
 
 #### 1300
-*English Description
-    *Description <br>
+* English Description
+    * Description <br>
 You are a butler in a large mansion. This mansion has so many rooms that they are merely referred to by 
 number (room 0, 1, 2, 3, etc...). Your master is a particularly absent-minded lout and continually leaves 
 doors open throughout a particular floor of the house. Over the years, you have mastered the art of 
@@ -106,7 +106,7 @@ Input to this problem will consist of a (non-empty) series of up to 100 data set
 formatted according to the following description, and there will be no blank lines separating data sets. 
 A single data set has 3 components: <br>
 1.Start line - A single line, "START M N", where M indicates the butler's starting room, and N indicates the number of rooms in the house (1 <= N <= 20). <br>
-2.Room list - A series of N lines. Each line lists, for a single room, every open door that leads to a room of higher number. For example, if room 3 had open doors to rooms 1, 5, and 7, the line for room 3 would read "5 7". The first line in the list represents room 0. The second line represents room 1, and so on until the last line, which represents room (N - 1). It is possible for lines to be empty (in particular,the last line will always be empty since it is the highest numbered room). On each line, the adjacent rooms are always listed in ascending order. It is possible for rooms to be connected by multiple doors! 
+2.Room list - A series of N lines. Each line lists, for a single room, every open door that leads to a room of higher number. For example, if room 3 had open doors to rooms 1, 5, and 7, the line for room 3 would read "5 7". The first line in the list represents room 0. The second line represents room 1, and so on until the last line, which represents room (N - 1). It is possible for lines to be empty (in particular,the last line will always be empty since it is the highest numbered room). On each line, the adjacent rooms are always listed in ascending order. It is possible for rooms to be connected by multiple doors!<br> 
 3.End line - A single line, "END" <br>
 Following the final data set will be a single line, "ENDOFINPUT". <br>
 Note that there will be no more than 100 doors in any single data set. 
