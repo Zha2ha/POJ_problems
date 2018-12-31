@@ -45,8 +45,8 @@ Note that there will be no more than 100 doors in any single data set.
 1.起始行-单行“START M N”，其中M表示管家的起始房间，N表示房子里的房间数（1<=N<=20）。
 2.房间清单-一系列N行的序列。每一行都列出了每个房间的每扇打开通向更大数字代号的门。例如，如果3号房间通向1、5和7号房间的门是
 敞开的，那么3号房间的线路记作“5 7”。列表中的第一行表示房间0。第二行表示房间1，依此类推，最后一行代表房间（N-1）。可能
-有的行是空的（特别的，最后一行总是空的，因为它是编号最高的房间）。在每行上，相邻的房间总是按升序排列。房间可以通过多个
-门连接！
+有的行是空的（特别的，最后一行总是空的，因为它是编号最高的房间）。在每行上，相邻的房间总是按升序排列。房间之间可以通过
+多个门连接！
 3.结束行-单行，“END”
 在最终数据集后面是一行“ENDOFINPUT”。
 注意，在任何一个数据集中，将不超过100个门。
@@ -93,10 +93,28 @@ YES 10
 
 
 #include <iostream>
+#include <string>
+
 using namespace std;
+// int main()
+// {
+//     string start;
+//     int StartRoom, RoomNum;
+
+
+//     system("pause");
+//     return 0;
+// }
+
 int main()
 {
-    
+    int n;
+    int s=0;
+    while (cin >> n && n!=-1)
+    {
+        s+=n;
+    }
+    cout << s;
     system("pause");
     return 0;
 }
