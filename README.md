@@ -1,7 +1,7 @@
-# read me
+# 算法设计与分析大作业题目
 #### POJ1264
 * 英文描述
-** Description
+    * Description
 Some problems are difficult to solve but have a simplification that is easy to solve. Rather than deal with
 the difficulties of constructing a model of the Earth (a somewhat oblate spheroid), consider a 
 pre-Columbian flat world that is a 500 kilometer x 500 kilometer square. 
@@ -23,7 +23,7 @@ kingdom is the area enclosed by the minimal-perimeter thin wall.
 There is exactly one power station per kingdom. 
 There may be empty space between kingdoms. 
 
-** Input
+    * Input
 The input is a sequence of kingdom specifications followed by a sequence of missile landing locations. 
 A kingdom is specified by a number N (3 <= N <= 100) on a single line which indicates the number of sites 
 in this kingdom. The next line contains the x and y coordinates of the power station, followed by N-1 lines 
@@ -37,11 +37,11 @@ integers between 0 and 500 inclusive. Coordinates are specified as a pair of int
 white-space on a single line. The input file will consist of up to 20 kingdoms, followed by any number of 
 missile attacks. 
 
-** Output
+    * Output
 The output consists of a single number representing the total area of all kingdoms without electricity after all missile attacks have been processed. The number should be printed with (and correct to) two decimal places.
 
 * 中文描述
-** 问题描述
+    * 问题描述
 有些问题很难解决，但有一个容易解决的简化。与其解决建造地球模型（有点扁的球体）的困难，不如考虑一个500千米×500千米平方的前哥伦比亚平原世界。
 在这个问题中使用的模型中，平面世界由几个交战的王国组成。世界人民虽然好战，但却是严格的孤立主义者；每个王国都被一堵高墙（但又很薄）包围着，这堵墙既用来保护王国又用来孤立它。为了避免争夺电力，每个王国都有自己的发电厂。
 当战争的冲动变得太强烈时，王国人民经常向其他王国发射导弹。每一枚飞毛腿导弹（Sanitary Cleansing Universal Destroyer）落入一个王国的城墙内，就摧毁了这个王国的发电厂（没有生命损失）。
@@ -50,7 +50,7 @@ The output consists of a single number representing the total area of all kingdo
 每个王国只有一个发电站。
 王国之间可能存在空白的空间。
 
-** 输入
+    * 输入
 输入是一串王国的描述序列以及一串导弹打击位置的描述序列。
 一个王国由一行上的数字N（3<=N<=100）标记的，它表示这个王国的站点数量。下一行标记电站的x和y坐标，接下来的N-1行
 的x,y坐标表示该电站供电的住宅位置。N为-1表示王国序列的结束。至少有一个王国。
@@ -59,7 +59,7 @@ The output consists of a single number representing the total area of all kingdo
 使用500公里乘500公里网格上的坐标以公里为单位指定位置。所有坐标都是0到500之间的整数。坐标由一行内一对由空格分
 隔的整数表示。输入序列最多可由20个王国组成，以及任意数量的导弹攻击。
 
-** 输出
+    * 输出
 输出由单个数字组成，表示所有王国在所有导弹攻击后以后没有电力的总面积。输出以两位小数形式输出。
 
 Sample Input
